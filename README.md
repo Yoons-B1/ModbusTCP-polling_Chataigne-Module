@@ -1,6 +1,12 @@
 # ModbusTCP-polling_Chataigne-Module [V7]
 This module enables Modbus TCP in Chataigne and includes a polling function.
 
+> Note :  
+> This file was created by referencing EmerickH's MODBUS-TCP-Chataigne.  
+> Thanks to EmerickH and benkuper!  
+> https://github.com/EmerickH/MODBUS-TCP-Chataigne  
+> https://benjamin.kuperberg.fr/chataigne/en  
+
 ## Features
 
 ### 1. Input
