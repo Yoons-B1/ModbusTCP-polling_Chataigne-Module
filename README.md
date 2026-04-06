@@ -106,8 +106,8 @@ Use:
 Consequences → Modbus TCP polling → Write coil
 ```
 
-* Checked → ON
-* Unchecked → OFF
+* Value Checked → ON
+* Value Unchecked → OFF
 
 ---
 <img width="2248" height="1519" alt="chataigne01" src="https://github.com/user-attachments/assets/2cec47a9-5800-4295-bffb-0cb30fdfff37" />
