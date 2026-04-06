@@ -1,8 +1,5 @@
-# ModbusTCP-polling_Chataigne-Module
+# ModbusTCP-polling_Chataigne-Module [V7]
 This module enables Modbus TCP in Chataigne and includes a polling function.
-<img width="2248" height="1519" alt="chataigne01" src="https://github.com/user-attachments/assets/2cec47a9-5800-4295-bffb-0cb30fdfff37" />
-
-# [Modbus TCP Polling V7 - for Chataigne]
 
 ## Features
 
@@ -14,7 +11,7 @@ This module enables Modbus TCP in Chataigne and includes a polling function.
 
 ### 2. Output
 
-* Controls Relay COM/NC using value states
+* Controls Relay COM/NO using value states
 * Suitable for sequential power controllers and similar applications
 
 ---
@@ -91,6 +88,7 @@ This module enables Modbus TCP in Chataigne and includes a polling function.
 * Assign these inputs to actions as needed
 
 ---
+<img width="2248" height="1519" alt="ch04" src="https://github.com/user-attachments/assets/1d5026dc-4b1d-40a4-a14f-8f122a186aae" />
 
 ## Relay Output
 
@@ -104,7 +102,7 @@ Consequences → Modbus TCP polling → Write coil
 * Unchecked → OFF
 
 ---
-<img width="2248" height="1519" alt="ch04" src="https://github.com/user-attachments/assets/1d5026dc-4b1d-40a4-a14f-8f122a186aae" />
+<img width="2248" height="1519" alt="chataigne01" src="https://github.com/user-attachments/assets/2cec47a9-5800-4295-bffb-0cb30fdfff37" />
 
 ## Tested Device
 
