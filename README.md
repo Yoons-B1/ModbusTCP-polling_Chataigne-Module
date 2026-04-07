@@ -1,5 +1,5 @@
 [![Platform](https://img.shields.io/badge/platform-MacOS%20%7C%20Windows%20%7C%20Linux-6d9fba)](https://github.com/Yoons-B1/ModbusTCP-polling_Chataigne-Module/releases) [![Release](https://img.shields.io/badge/Release-V.7-fc1ba6)](https://github.com/Yoons-B1/ModbusTCP-polling_Chataigne-Module/releases) [![License](https://img.shields.io/github/license/Yoons-B1/ModbusTCP-polling_Chataigne-Module)](https://github.com/Yoons-B1/ModbusTCP-polling_Chataigne-Module/blob/main/LICENSE)
-# ModbusTCP-polling-Chataigne-Module [V7]
+# ModbusTCP polling - Chataigne Module [V7]
 
 This module enables Modbus TCP in Chataigne and includes a polling function.  
 It is designed for push button input detection and relay output control.
