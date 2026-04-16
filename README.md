@@ -135,13 +135,19 @@ Port : 502
 ## Test Commands  
 (Use Packet Sender : https://packetsender.com/download)
 
-### Input (Button Detection)
-
+### Input (Button Detection)  
+00 xx   → Transaction ID  
+00 00   → Protocol ID  
+00 06   → Length  
+00      → Unit ID  
+02      → Function (Read Discrete Inputs)  
+00 0x   → Address  
+00 01   → Count  
 ```
-00 00 00 00 00 06 01 02 00 00 00 08  (DI1 Status Check)
+00 00 00 00 00 06 00 02 00 00 00 01  (SEND - DI1 Status Check)
 ------------------------------------------------------
-00 00 00 00 00 04 01 02 01 00        (No click detected)
-00 00 00 00 00 04 01 02 01 01        (click detected)
+00 00 00 00 00 04 00 02 01 00        (RECEIVE - No click detected)
+00 00 00 00 00 04 00 02 01 01        (RECEIVE - click detected)
 ```
 
 ### Output (Relay Control)
