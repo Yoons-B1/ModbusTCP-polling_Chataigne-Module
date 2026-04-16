@@ -132,13 +132,15 @@ Port : 502
 
 ---
 
-## Test Commands
+## Test Commands (Use Packet Sender)
 
 ### Input (Button Detection)
 
 ```
-00 00 00 00 00 06 01 02 00 00 00 08  (DI1 click)
-00 00 00 00 00 04 01 02 01 01        (click detected response)
+00 00 00 00 00 06 01 02 00 00 00 08  (DI1 Status Check)
+------------------------------------------------------
+00 00 00 00 00 04 01 02 01 00        (No click detected)
+00 00 00 00 00 04 01 02 01 01        (click detected)
 ```
 
 ### Output (Relay Control)
